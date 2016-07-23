@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sample.foo.usingawarenessapi.FenceActivity">
+
+    <TextView
+        android:id="@+id/action1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action1_text"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/action1TextView"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <Button
+            android:id="@+id/add1Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_fence"/>
+
+        <Button
+            android:id="@+id/remove1Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remove_fence"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/action2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action2_text"
+        android:layout_below="@id/layout1"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/action2TextView"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <Button
+            android:id="@+id/add2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_fence"/>
+
+        <Button
+            android:id="@+id/remove2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remove_fence"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/action3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout2"
+        android:text="@string/action3_text"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/action3TextView"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <Button
+            android:id="@+id/add3Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_fence"/>
+
+        <Button
+            android:id="@+id/remove3Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remove_fence"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

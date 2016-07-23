@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">UsingAwarenessAPI</string>
+    <string name="snapshot_activity">Snapshot Activity</string>
+    <string name="fence_activity">Fence Activity</string>
+
+    <string name="get_snapshot">Get Snapshot</string>
+    <string name="time">Time</string>
+    <string name="user_activity">User Activity</string>
+    <string name="headphones">Headphones</string>
+    <string name="location">Location</string>
+    <string name="places">Places</string>
+    <string name="weather">Weather</string>
+    <string name="beacon">Beacon</string>
+
+    <string name="dash">-</string>
+
+    <string name="add_fence">Add Fence</string>
+    <string name="remove_fence">Remove Fence</string>
+    <string name="action1_text">Headphones Fence</string>
+    <string name="action2_text">Headphones AND User Walking Fence</string>
+    <string name="action3_text">Headphones OR User Walking Fence</string>
+
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+</resources>

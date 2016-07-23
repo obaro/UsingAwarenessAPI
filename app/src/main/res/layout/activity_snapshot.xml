@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sample.foo.usingawarenessapi.SnapshotActivity">
+
+    <Button
+        android:id="@+id/snapshotButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/get_snapshot" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/snapshotButton"
+        android:scrollbars="horizontal|vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignBounds"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:useDefaultMargins="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_gravity="end"
+                android:text="@string/user_activity" />
+
+            <TextView
+                android:id="@+id/userActivityTextView"
+                android:layout_width="0dp"
+                android:layout_gravity="fill|clip_horizontal"
+                android:layout_height="wrap_content"
+                android:text="@string/dash" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/headphones" />
+
+            <TextView
+                android:id="@+id/action1TextView"
+                android:layout_width="0dp"
+                android:layout_gravity="fill|clip_horizontal"
+                android:layout_height="wrap_content"
+                android:text="@string/dash" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/location" />
+
+            <TextView
+                android:id="@+id/locationTextView"
+                android:layout_width="0dp"
+                android:layout_gravity="fill|clip_horizontal"
+                android:layout_height="wrap_content"
+                android:text="@string/dash" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/weather" />
+
+            <TextView
+                android:id="@+id/weatherTextView"
+                android:layout_width="0dp"
+                android:layout_gravity="fill|clip_horizontal"
+                android:layout_height="wrap_content"
+                android:text="@string/dash" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/places" />
+
+            <TextView
+                android:id="@+id/placesTextView"
+                android:layout_width="0dp"
+                android:layout_gravity="fill|clip_horizontal"
+                android:layout_height="wrap_content"
+                android:text="@string/dash" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/beacon" />
+
+            <TextView
+                android:id="@+id/beaconTextView"
+                android:layout_width="0dp"
+                android:layout_gravity="fill|clip_horizontal"
+                android:layout_height="match_parent"
+                android:text="@string/dash" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textAlignment="textEnd"
+                android:text="@string/time" />
+
+            <TextView
+                android:id="@+id/timeTextView"
+                android:layout_width="0dp"
+                android:layout_gravity="fill|clip_horizontal"
+                android:layout_height="wrap_content"
+                android:text="@string/dash" />
+        </GridLayout>
+    </ScrollView>
+</RelativeLayout>
